@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/rhythm_test.png-77fe628ad0a40c248046c00e05acdcb0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://wiki/images/rhythm_test.png"
+dest_files=[ "res://.import/rhythm_test.png-77fe628ad0a40c248046c00e05acdcb0.stex" ]
 
 [params]
 
