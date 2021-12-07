@@ -11,7 +11,13 @@ config_version=4
 [application]
 
 config/name="Rythym"
+run/main_scene="res://Scenes/MainMenu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=656
+window/size/height=1280
 
 [physics]
 

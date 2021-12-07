@@ -1,0 +1,184 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Images/SongSelect.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/SongSelect.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/Oswald-Regular.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 60
+font_data = ExtResource( 3 )
+
+[node name="SongSelect" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 2, 2 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SongSelect" type="Node" parent="."]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="SongSelect"]
+margin_left = 88.1945
+margin_top = 103.314
+margin_right = 569.194
+margin_bottom = 1195.31
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SongSelect/ScrollContainer"]
+margin_right = 468.999
+margin_bottom = 1296.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_right = 468.0
+margin_bottom = 96.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn2" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 100.0
+margin_right = 468.0
+margin_bottom = 196.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn3" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 200.0
+margin_right = 468.0
+margin_bottom = 296.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn4" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 300.0
+margin_right = 468.0
+margin_bottom = 396.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn5" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 400.0
+margin_right = 468.0
+margin_bottom = 496.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn6" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 500.0
+margin_right = 468.0
+margin_bottom = 596.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn7" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 600.0
+margin_right = 468.0
+margin_bottom = 696.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn8" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 700.0
+margin_right = 468.0
+margin_bottom = 796.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn9" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 800.0
+margin_right = 468.0
+margin_bottom = 896.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn10" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 900.0
+margin_right = 468.0
+margin_bottom = 996.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn11" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 1000.0
+margin_right = 468.0
+margin_bottom = 1096.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn12" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 1100.0
+margin_right = 468.0
+margin_bottom = 1196.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Song1Btn13" type="Button" parent="SongSelect/ScrollContainer/VBoxContainer"]
+margin_top = 1200.0
+margin_right = 468.0
+margin_bottom = 1296.0
+custom_fonts/font = SubResource( 1 )
+text = "Song Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn2" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn3" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn4" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn5" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn6" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn7" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn8" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn9" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn10" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn11" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn12" to="." method="_on_Song1Btn_pressed"]
+[connection signal="pressed" from="SongSelect/ScrollContainer/VBoxContainer/Song1Btn13" to="." method="_on_Song1Btn_pressed"]

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Images/Youdied.png" type="Texture" id=1]
+
+[node name="EndGame" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -94.1545
+margin_top = -48.7354
+margin_right = 625.845
+margin_bottom = 1135.26
+rect_scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
